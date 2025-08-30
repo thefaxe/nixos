@@ -1,6 +1,8 @@
-      sshd.settings = {
+# integrate https://www.abuseipdb.com reporting in fail2ban for ssh
+
+sshd.settings = {
         backend = "systemd";
         mode = "aggressive";
         action = ''%(action_)s
          %(action_abuseipdb)s[abuseipdb_apikey="APIKEY_here", abuseipdb_category="18,22"]'';
-        };
+};
