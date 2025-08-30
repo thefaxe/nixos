@@ -3,6 +3,7 @@
 sshd.settings = {
         backend = "systemd";
         mode = "aggressive";
+        action_abuseipdb = "abuseipdb";
         action = ''%(action_)s
-         %(action_abuseipdb)s[abuseipdb_apikey="APIKEY_here", abuseipdb_category="18,22"]'';
+         %(action_abuseipdb)s[abuseipdb_apikey="585dc889a4f3bca87406ccfc5273b4945731c7876a4ef2099714e116e275fc37e6d865405d9c6485", abuseipdb_category="18,22"]'';
 };
