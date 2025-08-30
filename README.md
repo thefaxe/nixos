@@ -1,2 +1,2 @@
 # nixos Snippets
-NixOS Snippets für configuration.nix
+NixOS Snippets for configuration.nix
